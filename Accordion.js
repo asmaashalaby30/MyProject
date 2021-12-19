@@ -1,0 +1,57 @@
+
+
+
+var mainTitle = $('.faq .faq-boxs .faq-right-box div ul li.main-title');
+var icon = $('.faq .faq-boxs .faq-right-box div ul li');
+var titleContent = $('.faq .faq-boxs .faq-right-box div ul');
+$(mainTitle).click(function() {
+        if ($(this).hasClass('first')) {
+            $(titleContent).find(".body.first").toggle();
+            $(titleContent).has(".first").toggleClass('change-color');
+            $(icon).find(".plus.first").toggle();
+            $(icon).find(".minus.first").toggle();
+
+        } else if ($(this).hasClass('second')) {
+            $(titleContent).find(".body.second").toggle();
+            $(titleContent).has(".second").toggleClass('change-color');
+            $(icon).find(".plus.second").toggle();
+            $(icon).find(".minus.second").toggle();
+
+        } else if ($(this).hasClass('third')) {
+            $(titleContent).find(".body.third").toggle();
+            $(titleContent).has(".third").toggleClass('change-color');
+            $(icon).find(".plus.third").toggle();
+            $(icon).find(".minus.third").toggle();
+
+        } else if ($(this).hasClass('fourth')) {
+            $(titleContent).find(".body.fourth").toggle();
+            $(titleContent).has(".fourth").toggleClass('change-color');
+            $(icon).find(".plus.fourth").toggle();
+            $(icon).find(".minus.fourth").toggle();
+
+        } else if ($(this).hasClass('fifth')) {
+            $(titleContent).find(".body.fifth").toggle();
+            $(titleContent).has(".fifth").toggleClass('change-color');
+            $(icon).find(".plus.fifth").toggle();
+            $(icon).find(".minus.fifth").toggle();
+
+        } else if ($(this).hasClass('sixth')) {
+            $(titleContent).find(".body.sixth").toggle();
+            $(titleContent).has(".sixth").toggleClass('change-color');
+            $(icon).find(".plus.sixth").toggle();
+            $(icon).find(".minus.sixth").toggle();
+
+        } else if ($(this).hasClass('seventh')) {
+            $(titleContent).find(".body.seventh").toggle();
+            $(titleContent).has(".seventh").toggleClass('change-color');
+            $(icon).find(".plus.seventh").toggle();
+            $(icon).find(".minus.seventh").toggle();
+
+        } else if ($(this).hasClass('eighth')) {
+            $(titleContent).find(".body.eighth").toggle();
+            $(titleContent).has(".eighth").toggleClass('change-color');
+            $(icon).find(".plus.eighth").toggle();
+            $(icon).find(".minus.eighth").toggle();
+
+        }
+    })
